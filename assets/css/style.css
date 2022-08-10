@@ -1,0 +1,565 @@
+
+
+/*general*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sora', sans-serif;
+    ;
+
+}
+
+span{
+    color: black;
+}
+
+
+.main-button button{
+
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    transition: .7s ;
+    
+}
+ .main-button button:hover{
+cursor: pointer;
+background-color: #25b5da;
+color: white;
+
+}
+.main-button button a{
+    text-decoration: none;
+    
+}
+.main-button button:hover a{
+    color: white;
+}
+
+/*start navbar*/
+
+
+
+
+.navbar{
+
+    background-color: white !important;
+    box-shadow: 0 1px 2px black;
+    
+
+
+    }
+.navbar-brand img  {
+
+    height: 65px;
+    width: 150px;
+    padding-left: 20px;
+    color: black !important;
+    line-height: 80px;
+}
+
+.navbar-nav li{
+
+    padding: 0 10px;
+}
+.navbar-nav li a{
+
+    color: #0095ce!important;
+    font-weight: 600;
+    text-align: center;
+}
+.navbar-nav li a:hover{
+
+    background-color: #006dba;
+    transition: .7s ;
+    color: white !important;
+    border-radius: 10px;
+    
+}
+
+
+.navbar-toggler-icon {
+
+    color: white !important;
+    font-size: 30px;
+    
+}
+.navbar-toggler{
+
+    outline: none!important;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #0095ce;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    
+}
+
+@media(max-width:768px){
+    
+    .navbar-nav{
+        background-color: white;
+    }
+}
+
+/*end navbar*/
+
+/*start home*/
+
+#home{
+
+
+    background: linear-gradient(to bottom,#16639a, #06a9ea, #25b5da, #0095ce, #25b5da); 
+    color: #fff;
+    padding-top: 10%;
+
+}
+
+
+.bottom-img{
+
+    width: 100%;
+}
+.logo{
+font-size: 40px;
+font-weight: 600;
+margin-top: 100px;
+
+}
+
+@media (max-width:768px){
+
+   #home{
+    text-align: center;
+   }
+   
+}
+/*end home*/
+
+/*start about*/
+
+
+#about .title{
+
+    color: #006dba;
+    font-weight: 600;
+    font-size: 35px;
+}
+.service-img {
+
+    width: 100px;
+    margin-top: 20px;
+}
+
+.about h3{
+
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    color: #0095ce;
+}
+.about img{
+    width: 125px;
+    height: 125px;
+}
+
+/*end about*/
+
+/*start paragraph*/
+#paragraph{
+   
+    background: linear-gradient(to bottom,#16639a, #06a9ea, #25b5da, #0095ce, #25b5da); 
+    padding: 0;
+    margin: 0;
+
+}
+
+.paragraph-title{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 8%;
+    color: #fff;
+}
+.list{
+
+    color: #fff;
+
+}
+.title{
+
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+.paragraph .paragraph-info p {
+
+    color: white;
+line-height: 40px;
+}
+
+#paragraph ul li {
+
+    margin: 10px 0;
+}
+#paragraph ul {
+
+    margin-left: 20px;
+}
+
+@media(max-width:768){
+    .paragraph{
+        text-align: center;
+    }
+}
+/*end paragraph*/
+
+/*service*/
+
+#service .title h2{
+    color: #006dba;
+    font-weight: 600;
+
+}
+#service .title p {
+    color: black;
+    font-size: 20px;
+    font-weight: 200 !important;
+    width: 70%;
+    margin: 0 auto;
+} 
+
+
+
+ #service .container .service-info{
+     background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    padding: 40px;
+    margin: 20px 0;
+ }
+ #service .container .service-info .icon{
+   font-size: 50px;
+   color: #0095ce;
+ }
+ #service .container .service-info h3{
+
+    color: #0095ce;
+    font-size: 20px;
+    font-weight: 600;
+ }
+ #service .container .service-info:hover{
+
+    background-color: #0095ce;
+    transition: .7s;
+    cursor: pointer;
+ }
+ #service .container .service-info:hover .icon,
+ #service .container .service-info:hover p,
+ #service .container .service-info:hover h3{
+    color: white;
+    transition: .7s;
+ }
+
+ @media(max-width:768px){
+    #service .title p{
+        width: 100%;
+    }
+ }
+
+
+
+       /*comments*/
+       #comments .container .row{
+
+        padding: 30px 0;
+        margin: 30px 0;
+       }
+       #comments .container .title h2{
+        color: #006dba;
+        font-weight: 600;
+
+       }
+       #comments .container .title p{
+        color: black;
+        font-size: 20px;
+        font-weight: 200 !important;
+        width: 70%;
+        margin: 0 auto;
+
+       }
+
+       #comments .container .team-member{
+         
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 0 8px 22px rgba(0,0,0,0.1);
+        padding: 50px 0;
+        text-align: center;
+        margin: 20px 0;
+       }
+       
+       #comments .container .team-member img{
+       
+        width: 100px;
+    
+       }
+
+     
+       #comments .container .team-member h3{
+         color: #006dba;
+         font-size: 20px;
+        padding: 5px;
+        margin-top: 25px;
+        font-weight: 600;
+       }
+       #comments .container .team-member p {
+
+        width: 80%;
+        margin: 0 auto;
+       }
+       #comments .container .team-member:hover{
+
+        background-color: #006dba;
+        margin-top: -15px;
+        transition: .7s;
+        cursor: pointer;
+       }
+       #comments .container .team-member:hover p,
+       #comments .container .team-member:hover h3 {
+        color: white;
+        transition: .7s;
+
+       }
+       @media(max-width:768px){
+        #comments .container .title p{
+            width: 100% ;
+        }}
+       
+    
+     
+       /*comments*/
+
+  
+
+/*start social-media*/
+#social-media{
+
+    background: #fff;
+    padding: 100px 0;
+}
+#social-media p {
+
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icon img{
+
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icon a:hover img{
+
+    transform: translateY(-10px);
+}
+/*end social-media*/
+
+/*start footer*/
+
+#footer {
+    background-color: #25b5da;
+    color: #fff;
+
+}
+.footer-img{
+
+    width: 100%;
+}
+.footer-box{
+
+    padding: 20px;
+
+}
+
+hr{
+
+    background-color: #fff;
+}
+.copyright{
+
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+@media (max-width: 1420px) {
+    #paragraph ul li  {
+    
+      text-align:center ;
+      margin: auto;
+    }
+   
+  }
+
+  /*******************************/
+  .image{
+
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .t{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #a3bfdb;
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+
+
+
+
+
+  
+/*start*/
+
+#h{
+
+    background-color: #fff;
+}
+
+.img-fluid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+}
+@media screen and (max-width: 768px) {
+    .img-fluid {
+        margin-top: 50px;
+      
+  }
+
+  h2{
+
+    text-align: center;
+  }
+
+.bb{
+
+    margin: 0px!important ;
+}
+
+}
+
+/*ends*/
+
+       /*contact*/
+       #contact{
+
+        margin: 100px;
+        margin-top: 100px;
+        box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+        border-radius: 20px;
+    }
+    #contact .container h2{
+        color: #006dba;
+        font-weight: 600;
+    
+    }
+
+    
+       form input {
+
+        height: 56px;
+        margin: 20px 0 ;
+       }
+
+       form .form-control{
+
+        border-radius: 0;
+        background-color: rgba(0, 0, 0, 0.02);
+       }
+      
+    form .btn {
+        margin:20px 0 !important;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    @media(max-width:768px){
+        #contact{
+            width: 100%;
+            margin: 0;
+
+        }
+    }
+    
+       
+       /*contact*/
+
+
+       
+/*
+---------------------------------------------
+faq
+--------------------------------------------- 
+*/
+
+
+.faq-card {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    padding: 24px 20px;
+    margin-bottom: 12px;
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+    margin-left: 300px;
+    margin-right: 300px;
+  
+   }
+  
+    .faq-open-icon {
+    font-size: 22px;
+    position: absolute;
+    top: 31px;
+    right: 13px;
+    font-weight: 700;
+}
+.faq-title h2{
+text-align: center;
+color: #006dba;
+font-weight: 800 ;
+
+}
+  
+@media (max-width: 1240px) {
+    .main-banner::before {
+      width: 640px;
+      height: 526px;
+    }
+    .faq-card {
+      margin: 10px;
+  
+    }}
+  
